@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <audio src="song.mp4" autoplay="autoplay" loop="loop"></audio>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome Internet user to Cyberspace where you will find basic tools for your daily routine on the Internet | Bienvenido internauta al Ciberespacio donde encontrarás herramientas basicas para tu rutina diaria en el internet"
+    />
+    <meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+    <meta name="author" content="Cyberspace / Ciberespacio" />
+    <title>Cyberspace - Ciberespacio</title>
+
+    <link rel="icon" type="image/png" href="images/eye.png">
+
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/boton.css">
+    <link rel="stylesheet" href="css/computer.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+
+<body>
+    <div id="all">
+
+        <div class="cursor"></div>
+
+
+        <div id="loader">
+            <span class="color">RyzenSetups...</span> Loading ...
+        </div>
+
+
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+
+
+
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="images/Menu.jpg" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link">HOME</a>
+                <a href="#" data-text="HOME" id="home-link">ABOUT</a>
+                <a href="#" data-text="HOME" id="home-link">CONTACT</a>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div id="header">
+            <div id="particles"></div>
+
+            <div class="social-media-links">
+                <a href="#"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
+                <a href="#"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
+                <a href="#"><img src="images/twitter logo.png" class="social-media" alt="twitter-logo"></a>
+            </div>
+
+            <div class="header-content">
+                <div class="container">
+                    <div class="stack" style="--stacks: 3;">
+                        <span style="--index: 0;">Ryzen Setups</span>
+                        <span style="--index: 1;">Ryzen Setups</span>
+                        <span style="--index: 2;">Ryzen Setups</span>
+                    </div>
+                </div>
+                <div class="header-content-box">
+                    <div class="firstline"><span class="color">Under </span> 🛠️Construction...</div>
+                    <div class="secondline">
+                        root:~$
+                        <span class="txt-rotate color" data-period="1200" data-rotate='[ "java -jar server.jar", " Welcome to the Ryzen Setups", " www.ryzensetups.shop" ]'></span>
+                        <span class="slash">|</span>
+                        <div class="third-span">
+                            <h1>👇</h1>
+                        </div>
+                        <div class="third-span">
+                        </div>
+                        <script type="text/javascript" src="computer.js"></script>
+                        <button onclick="computer()">
+Get Started
+</button>
+                    </div>
+                    <div class="contact">
+                        <a><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
+                        <a><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-image">
+                <img src="images/gato.jpg" alt="logo">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/computer.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        particlesJS("particles", {
+            "particles": {
+                "number": {
+                    "value": 30,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ff0000"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <script src="./computer.js"></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/GlitchPass.js'></script>
+    <script src="./computer.js"></script>
+</body>
+
+</html>
